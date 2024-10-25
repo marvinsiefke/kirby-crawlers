@@ -1,9 +1,9 @@
 {
-	"name": "pepper/kirby3-bots",
-	"description": "Provides sitemap.xml, sitemap.txt and robots.txt",
-	"version": "1.0.0",
+	"name": "pepper/crawlers",
+	"description": "Kirby plugin for providing sitemap.xml, sitemap.txt and robots.txt. Also notifies Bing via IndexNow.",
+	"version": "1.1.0",
 	"license": "MIT",
-	"homepage": "https://github.com/marvinsiefke/kirby3-bots",
+	"homepage": "https://github.com/marvinsiefke/kirby-crawlers",
 	"authors": [
 		{
 			"name": "Marvin Siefke (pepper)",
