@@ -66,10 +66,10 @@ Kirby::plugin('pepper/crawlers', [
 		// indexnow key file
 		[
 			'pattern' => '(:any).txt',
-			'action' => function($givenKey) {
+			'action' => function($filename) {
 				$apiKey = kirby()->option('pepper.crawlers.indexnow.key', '');
 
-				if (!empty($apiKey) && $apiKey === $givenKey) {
+				if (!empty($apiKey) && $apiKey === $filename) {
 					return new Response($apiKey, 'text/plain');
 				}
 			}
